@@ -1,0 +1,10 @@
+{
+    "base_directory": "",
+    "submission_name_regex": "",
+    "file_extensions": [
+        {
+            "name": "",
+            "amount":
+        },
+    ]
+}
