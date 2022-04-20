@@ -1,1 +1,6 @@
-/config.txt
+.vscode
+test_data
+test_output
+
+*.json
+!config_template.json
