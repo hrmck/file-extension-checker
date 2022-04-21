@@ -1,6 +1,7 @@
 .vscode
 test_data
 test_output
+logs
 
 *.json
 !config_template.json
