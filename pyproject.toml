@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "file-extension-checker"
+version = "0.1.0"
+description = "A utility to help checking if each subdirectory (that has unknown levels) contains required files."
+authors = ["Your Name <you@example.com>"]
+license = "GNU GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+pylint = "^2.13.5"
+isort = "^5.10.1"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tools.yapf]
+based_on_style = "google"
